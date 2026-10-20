@@ -1,0 +1,89 @@
+# ============================================
+# Python Virtual Environment
+# ============================================
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# Data Files (Large files - don't commit)
+# ============================================
+data/
+outputs/
+
+# ============================================
+# Models (Large model files)
+# ============================================
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.joblib
+models/*.bin
+models/*.onnx
+
+# ============================================
+# IDE / Editor Files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Reports / Outputs
+# ============================================
+reports/*.html
+reports/*.pdf
+reports/figures/
+reports/output/
+
+# ============================================
+# Logs & Temporary Files
+# ============================================
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+
+# ============================================
+# Environment Variables / Secrets
+# ============================================
+.env
+.env.local
+*.env
+config/secrets.yaml
+config/credentials.json
+
+# ============================================
+# Jupyter Notebook Output (Optional - clean notebooks)
+# ============================================
+# notebooks/*.ipynb   # Uncomment if you don't want to commit notebooks
+
+# ============================================
+# Python Build / Distribution
+# ============================================
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+setup.cfg

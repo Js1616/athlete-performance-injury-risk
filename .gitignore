@@ -87,3 +87,10 @@ dist/
 *.egg
 MANIFEST
 setup.cfg
+
+
+
+# important notes gitignore 
+notebooks/imp_notes.ipynb
+
+models/pose_landmarker_lite.task
